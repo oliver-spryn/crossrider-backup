@@ -1,0 +1,190 @@
+/**
+ * Master header
+ * ----------------------------------------
+*/
+
+header#boost-header {
+    height: 35px;
+    margin: 20px 30px;   
+}
+
+header#boost-header a img.logo {
+    height: 35px;  
+}
+
+/**
+ * Advertisements
+ * ----------------------------------------
+*/
+
+header#boost-header div.ad {
+    display: inline-block;
+    height: 35px;
+    left: 220px;
+    position: absolute;
+    right: 300px;
+    text-align: center;
+    top: 20px;
+}
+
+header#boost-header div.ad img {
+    max-height: 35px;   
+}
+
+/**
+ * User account
+ * ----------------------------------------
+*/
+
+header#boost-header div.account {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+}
+
+header#boost-header div.account ul li {
+    display: inline-block;
+    margin: 0px;   
+}
+
+header#boost-header div.account ul li span {
+	cursor: pointer;
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+}
+
+header#boost-header div.account ul li span.courses {
+    background: url(resource-image://images/grid.png) no-repeat 6px 6px;
+}
+
+header#boost-header div.account ul li span.alerts {
+    background: url(resource-image://images/notifications.png) no-repeat 6px 6px;
+}
+
+header#boost-header div.account ul li span.refresh {
+    background: url(resource-image://images/reload.png) no-repeat 6px 6px;
+}
+
+header#boost-header div.account ul li span.avatar {
+    -moz-box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border-radius: 100%;
+    cursor: pointer;
+    display: inline-block;
+    height: 35px;
+    margin-left: 15px;
+    width: 35px;
+}
+
+header#boost-header div.account ul li span.avatar:hover {
+    -moz-box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.50);
+    -ms-box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.50);
+    -o-box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.50);
+    -webkit-box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.50);
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.50);
+}
+
+/**
+ * Course menu
+ * ----------------------------------------
+*/
+
+header#boost-header div.account ul li ul.course-list li {
+	padding: 10px 0px;	
+}
+
+header#boost-header div.account ul li ul.course-list li:first-child {
+	padding-top: 0px;	
+}
+
+header#boost-header div.account ul li ul.course-list li:last-child {
+	padding-bottom: 0px;	
+}
+
+header#boost-header div.account ul li ul.course-list li a, header#boost-header div.account ul li ul.course-list li a strong {
+	display: block;
+}
+
+header#boost-header div.account ul li ul.course-list li a span {
+	display: block;
+	height: auto;
+	width: auto;
+}
+
+/**
+ * Navigation bar
+ * ----------------------------------------
+*/
+
+div#headerTabs {
+	background-color: #F5F5F5;
+    font-family: 'Lato', sans-serif;
+	height: 46px;
+    position: static;
+}
+
+div#headerTabs.fixed {
+	position: fixed;
+	width: 100%;
+}
+
+div#headerTabs ul {
+	height: 46px;
+    margin: 0px 10%;
+    text-align: center;
+}
+
+div#headerTabs ul li {
+    background: #F5F5F5;
+	border: none;
+	display: inline-block;
+	height: 46px;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#headerTabs ul li.selected {
+    background: #F5F5F5;
+    padding: 0px;
+    top: 0px;
+}
+
+div#headerTabs ul li a {
+    -moz-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    
+    border-bottom: 2px solid #F5F5F5;
+    color: #737373;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 15px 17px 12px 17px;
+}
+
+div#headerTabs ul li a:hover {    
+    background-color: #E0E0E0;
+    border-bottom: 2px solid #44BBFF;
+    color: #737373;
+    text-decoration: none;
+}
+
+div#headerTabs ul li.selected a {
+    border-bottom: 2px solid #4D90FE;
+    color: #000000;
+    font-weight: bolder;
+}
+
+div#headerTabs ul li.selected a:hover {
+    color: #000000;
+}

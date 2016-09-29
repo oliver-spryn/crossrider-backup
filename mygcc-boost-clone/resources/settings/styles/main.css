@@ -1,0 +1,19 @@
+/**
+ * Global styles
+ * ------------------------------
+*/
+
+* {
+	font-family: 'Lato', sans-serif;	
+}
+
+/**
+ * Jumbotron
+ * ------------------------------
+*/
+
+section.jumbotron {
+	background: url(resource-image://settings/images/branding/banner.png) no-repeat center center;
+	background-size: 100% auto;
+	height: 363px;
+}

@@ -1,0 +1,266 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/**
+ * General styles
+ * ---------------------------------
+*/
+
+body > table {
+	margin: 75px 10% 0% 10%;
+	overflow-x: hidden;
+	width: 80%;
+}
+
+div.pHead {
+	background-color: none;
+}
+
+div.pHead h3 {
+	line-height: 0px;
+}
+
+/**
+ * Navigation bar
+ * ---------------------------------
+*/
+
+ul.nav li {
+	margin: 0px;
+}
+
+/**
+ * Login dropdown
+ * ---------------------------------
+*/
+
+ul.dropdown-menu li div {
+	margin: 0px;
+	padding: 10px;
+}
+
+/**
+ * Breadcrumb
+ * ---------------------------------
+*/
+
+ul.new-breadcrumb {
+	border-bottom: 1px solid #D8DDE1;
+	background-color: #EEEEEE;
+	font-size: 11px;
+	margin: 0px 0px 0px -10%;
+	padding: 0px 0px 0px 9%;
+	position: absolute;
+	top: 41px;
+	width: 91%;
+}
+
+ul.new-breadcrumb li {
+	display: inline-block;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+
+ul.new-breadcrumb li:first-child {
+	background: url(resource-image://img/home.png) no-repeat;
+	background-position: 0px -15px; 
+}
+
+ul.new-breadcrumb li:first-child:hover {
+	background-position: 0px 3px; 
+}
+
+ul.new-breadcrumb li:first-child a {
+	padding-left: 15px;
+}
+
+ul.new-breadcrumb li a {
+	background: url(resource-image://img/divider.png) no-repeat right;
+	color: #44BBFF;
+	padding: 5px 12px 5px 4px;
+}
+
+ul.new-breadcrumb li span {
+	padding-left: 4px;
+}
+
+/**
+ * Footer
+ * ---------------------------------
+*/
+
+div.new-footer {
+	background: #181818;
+	color: #888;
+	font-family: 'Open Sans', sans-serif;
+	padding: 35px 10% 35px 10%;
+}
+
+div.new-footer a {
+	text-decoration: none;
+}
+
+/**
+ * Side Link Tiles
+ * ---------------------------------
+*/
+
+div.new-footer ul.side-links {
+	list-style: none;
+	text-align: center;
+	width: 66%;
+}
+
+div.new-footer ul.side-links li {
+	display: inline-block;
+	padding: 7px;
+	vertical-align: top;
+}
+
+div.new-footer ul.side-links li a {
+	-moz-transition: all .25s ease-in-out;
+	-ms-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	-webkit-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+	
+	background: #303030;
+	border: 1px solid #DDDDDD;
+	color: #FFFFFF;
+	display: block;
+	font-size: 45px;
+	font-weight: lighter;
+	height: 58px;
+	line-height: 1.17;
+	text-align: center;
+	text-transform: capitalize;
+	width: 64px;
+}
+
+div.new-footer ul.side-links li a img {
+	padding-top: 4px;
+}
+
+div.new-footer ul.side-links li a:hover {
+	text-decoration: none;
+}
+
+div.new-footer ul.side-links li a.color1:hover {
+	background: #FF3366;
+}
+
+div.new-footer ul.side-links li a.color2:hover {
+	background: #FF9900;
+}
+
+div.new-footer ul.side-links li a.color3:hover {
+	background: #FFCC33;
+}
+
+div.new-footer ul.side-links li a.color4:hover {
+	background: #00CC00;
+}
+
+div.new-footer ul.side-links li a.color5:hover {
+	background: #009933;
+}
+
+div.new-footer ul.side-links li a.color6:hover {
+	background: #009966;
+}
+
+div.new-footer ul.side-links li a.color7:hover {
+	background: #66CCCC;
+}
+
+div.new-footer ul.side-links li a.color8:hover {
+	background: #0066CC;
+}
+
+div.new-footer ul.side-links li a.color9:hover {
+	background: #003399;
+}
+
+div.new-footer ul.side-links li a.color10:hover {
+	background: #333399;
+}
+
+div.new-footer ul.side-links li a.color11:hover {
+	background: #6600CC;
+}
+
+div.new-footer ul.side-links li a.color12:hover {
+	background: #9933FF;
+}
+
+div.new-footer ul.side-links li a.color13:hover {
+	background: #CC33FF;
+}
+
+div.new-footer ul.side-links li a.color14:hover {
+	background: #FF00FF;
+}
+
+/**
+ * Portlet Link Compilation
+ * ---------------------------------
+*/
+
+div.new-footer h2 {
+	border-top: 1px solid #DDDDDD;
+	color: #FFFFFF;
+	font-size: 24px;
+	font-weight: lighter;
+	margin: 65px 0px 0px -12.5%;
+	padding-top: 7px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 125%;
+}
+
+div.new-footer ul.portlets-compilation {
+	display: table;
+	list-style: none;
+	margin: 0px;
+	padding: 40px 0px 60px 0px;
+	width: 100%;
+}
+
+div.new-footer ul.portlets-compilation li {
+	display: table-cell;
+	vertical-align: top;
+}
+
+div.new-footer ul.portlets-compilation li ul {
+	padding: 0px;
+}
+
+div.new-footer ul.portlets-compilation li ul li {
+	display: list-item;
+	font-size: 14px;
+	list-style: none;
+	padding-bottom: 5px;
+}
+
+div.new-footer ul.portlets-compilation li ul li:first-child {
+	padding-bottom: 20px;
+}
+
+div.new-footer ul.portlets-compilation li ul li a {
+	-moz-transition: all .25s ease-in-out;
+	-ms-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	-webkit-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+	
+	color: #888888;
+}
+
+div.new-footer ul.portlets-compilation li ul li a:hover {
+	color: #FFFFFF;
+}
+
+div.new-footer ul.portlets-compilation li ul li:first-child a {
+	color: #FFFFFF;
+	font-weight: 600;
+	text-transform: uppercase;
+}
